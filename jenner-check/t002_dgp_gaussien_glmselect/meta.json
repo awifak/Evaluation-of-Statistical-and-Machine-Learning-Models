@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_dgp_gaussien_glmselect",
+  "source_file": "code/Simulations and metrics.sas",
+  "source_blob_sha": "8e554532724865e71c287776da27a6fe5e1c1522",
+  "source_commit": "b4b55e26e168ff44d015741f4afffb727ae62598",
+  "notes": "The author's PROC IML Gaussian DGP generator (DGP_Gaussien; RandNormal, Beta[1:6]={1,-0.35,0.15,0.27,0.57,-0.14} over 50 regressors), reduced to one simulated dataset (MC=1), followed by a single PROC GLMSELECT stepwise(choose=SBC stop=SBC). Selection recovers the six true signals; the Parameter Estimates match the author's Beta. IML generator code unchanged."
+}

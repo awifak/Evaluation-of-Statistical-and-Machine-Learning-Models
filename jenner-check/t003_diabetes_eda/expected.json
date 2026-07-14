@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T08:41:04.922599+00:00",
+  "_captured_run_id": "r_f21635b4f7c244fd857fcece99cf7e24",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC CONTENTS completed: 30 observations, 11 variables",
+    "NOTE: PROC MEANS",
+    "NOTE: PROC CORR data=DIABETES",
+    "NOTE: PROC REG data=DIABETES"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
