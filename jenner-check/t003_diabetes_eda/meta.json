@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_diabetes_eda",
+  "source_file": "code/Empirical Analysis.sas",
+  "source_blob_sha": "62d14cc7b9b9303a406ca13eac363d05a6705b54",
+  "source_commit": "b4b55e26e168ff44d015741f4afffb727ae62598",
+  "notes": "The author's exploratory data analysis of the diabetes dataset (PROC CONTENTS/FREQ/MEANS/CORR best=5/REG with vif collin). Their external file 'chemin/Diabetes.txt' is replaced with a 30-row diabetes-shaped sample inlined as DATALINES (AGE SEX BMI BP S1-S6 Y), so the bundle is fully self-contained. PROC steps and options are the author's."
+}

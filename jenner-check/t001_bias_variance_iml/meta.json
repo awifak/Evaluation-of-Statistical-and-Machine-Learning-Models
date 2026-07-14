@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_bias_variance_iml",
+  "source_file": "code/The bias variance trade-off.sas",
+  "source_blob_sha": "b600ed0c42b3d4242b76f697c4ea7b1773e2d090",
+  "source_commit": "b4b55e26e168ff44d015741f4afffb727ae62598",
+  "notes": "PROC IML Monte-Carlo bias-variance study (randseed 12345) fitting polynomial degrees 0/2/8 by OLS/generalized-inverse, then PROC SGPLOT of true vs fitted curves. Fully self-contained, no external data. Re-encoded Latin-1 source to UTF-8; script logic unchanged."
+}
